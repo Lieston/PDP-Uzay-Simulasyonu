@@ -16,6 +16,8 @@ UzaySimulasyonu/ ├── src/ → Java kaynak kodlari ├── dist/ → Cali
 cd UzaySimulasyonu
 java -jar dist/simulasyon.jar
 
+```
+
 Gerekli veriler ayni klasorde bulunan .txt dosyalarindan alinmaktadir.
 Simulasyon her saat ilerleyerek ekrani temizler ve guncel durumu yazdirir.
 
@@ -44,7 +46,7 @@ Isim#Yas#KalanOmur#BulunduguUzayAraci
 Örnek: 
 Ahmet#25#8500#A1
 
-Kodun Genel Isleyisi
+## Kodun Genel Isleyisi
 Program basladiginda gezegenler kendi baslangic tarihleri ve saat yapilariyla baslatilir.
 
 Simulasyon her saat ilerlediginde:
@@ -67,7 +69,7 @@ Varis tarihi hedef gezegenin zaman dilimine gore yazdirilir
 
 Tum araclar varis yaptiginda simulasyon sona erer ve son durum ekrana yazilir.
 
-Gelistirici
+## Gelistirici
 Bilal Kaan Yuksel
 kaan12358@gmail.com
 
